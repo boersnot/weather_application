@@ -5,6 +5,9 @@ import axios from "axios"
 import {CustomButton} from './Components/Header'
 import {Div} from './Components/Header'
 import {Input} from './Components/Header'
+import {Label} from './Components/Header'
+import {Body} from './Components/Header'
+import {Span} from './Components/Header'
 
 function App() {
 
@@ -21,17 +24,19 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <CustomButton>Hello</CustomButton>
+    <Body>
       <Div>
-      <Input></Input>
-        The forecast for the weather in {location} for today is:
-       {weather} 
+        <Label>City</Label>
+        <Input></Input>
+        <CustomButton>Go</CustomButton>
+
+        <Div>The forecast for the weather in {location} for today is:
+       {weather} </Div>
        
       </Div>
 
       
-    </div>
+    </Body>
   );
 }
 
