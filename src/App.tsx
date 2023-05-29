@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import axios from "axios"
 import {CustomButton} from './Components/Header'
+import {Div} from './Components/Header'
+import {Input} from './Components/Header'
 
 function App() {
 
@@ -20,12 +22,13 @@ function App() {
 
   return (
     <div className="App">
-      <CustomButton></CustomButton>
-      <header className="App-header">
+      <CustomButton>Hello</CustomButton>
+      <Div>
+      <Input></Input>
         The forecast for the weather in {location} for today is:
        {weather} 
        
-      </header>
+      </Div>
 
       
     </div>
