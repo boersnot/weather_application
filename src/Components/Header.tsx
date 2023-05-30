@@ -30,7 +30,7 @@ export const Body = styled.body`
 width:80%;
 font-size:12px;
 margin: 20px 100px;
-font-family:Courier;
+font-family:Arial;
 `
 
 
