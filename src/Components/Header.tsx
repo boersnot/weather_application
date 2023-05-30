@@ -22,14 +22,15 @@ width: 200px;
 `
 
 export const Label = styled.label`
-font-family:Courier;
+
 margin 10px 10px;
 `
 
 export const Body = styled.body`
-width:60%;
+width:80%;
 font-size:12px;
 margin: 20px 100px;
+font-family:Courier;
 `
 
 

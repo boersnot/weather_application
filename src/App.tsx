@@ -8,6 +8,8 @@ import {Input} from './Components/Header'
 import {Label} from './Components/Header'
 import {Body} from './Components/Header'
 import {Span} from './Components/Header'
+import { WeatherIcon } from './Components/WeatherIcon';
+import ico from './sun_icon.jpg'
 
 function App() {
 
@@ -32,6 +34,9 @@ function App() {
 
         <Div>The forecast for the weather in {location} for today is:
        {weather} </Div>
+       <Div>Degrees:</Div>
+       <Div>Wind:</Div>
+       <img width="200" height="300" src={ico}></img>
        
       </Div>
 
